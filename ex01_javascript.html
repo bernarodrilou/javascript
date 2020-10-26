@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head></head>
+
+    <body>
+
+        <script>
+        	var combustivel = prompt("Digite o codigo do combustivel");
+        	var qtdlitros = prompt("Digite a quantidade de litros");
+        	var pa = 3.16;
+        	var pg = 4.19;
+        	if(combustivel == 1){
+        		document.write("Voce escolheu alcool e pagara " + qtdlitros*pa);
+        	}else{
+        		if(combustivel == 2){
+        			document.write("Voce escolheu gasolina e pagara " + qtdlitros*pg);
+        		}else{
+        			document.write("codigo incorreto");
+        		}
+        	}
+        </script>
+
+    </body>
+
+</html>  
